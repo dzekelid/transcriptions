@@ -1,12 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Twilio
-  description: Twilio is a cloud communications Infrastructure as a Service(IaaS)
-    company based in San Francisco, California. Twilio allows software developers
-    to programmatically make and receive phone calls and send and receive text messages
-    using its web service APIs. Twilio's services are accessed over HTTP and are billed
-    based on usage.
+  title: Twilio Get Transcription
+  description: Returns a single Transcription resource representation identified by
+    thengiven {TranscriptionSid}. By default Twilio will respond with the XML metadata
+    for the Transcription. If you append .txt to the end of the Transcription resources
+    URI Twilio will just return you the transcription tex.n
   termsOfService: https://www.twilio.com/legal/tos
   version: v1
 host: api.twilio.com
