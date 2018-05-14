@@ -1,12 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Twilio
-  description: Twilio is a cloud communications Infrastructure as a Service(IaaS)
-    company based in San Francisco, California. Twilio allows software developers
-    to programmatically make and receive phone calls and send and receive text messages
-    using its web service APIs. Twilio's services are accessed over HTTP and are billed
-    based on usage.
+  title: Twilio Get Transcriptions
+  description: Returns a set of Transcription resource representations that includes
+    pagingninformation.n
   termsOfService: https://www.twilio.com/legal/tos
   version: v1
 host: api.twilio.com
@@ -1955,16 +1952,16 @@ definitions:
         type: array
 x-collection-name: Twilio
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: ~
+  polling_size_download_average: ~
+  streaming_total_time_average: ~
+  streaming_size_download_average: ~
+  change_yes: ~
+  change_no: ~
+  time_percentage: ~
+  size_percentage: ~
+  change_percentage: "200"
+  last_run: ~
+  days_run: ~
+  minute_run: ~
 ---
